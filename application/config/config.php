@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://127.0.0.1/FWBA_CI';
+$config['base_url'] = 'http://vps313166.ovh.net/FWBA_CI/';
 
 /*
 |--------------------------------------------------------------------------
