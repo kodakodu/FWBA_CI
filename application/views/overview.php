@@ -78,7 +78,7 @@
    <div style="position:absolute;z-index:1">
       <img src="<?php echo base_url()?>assets/img/haut2.png" usemap="#image-map">
 		<map name="image-map" >
-			<area target="" alt="" title="" href="<?php echo base_url()?>index.html" group="acc" coords="60,35,60,153,124,204,195,148,199,35" shape="poly">
+			<area target="" alt="" title="" href="<?php echo base_url()?>index.php" group="acc" coords="60,35,60,153,124,204,195,148,199,35" shape="poly">
 		</map>
    </div>
    <div class="ban_texte_header">
@@ -99,7 +99,7 @@
 		<div class="content_phases"style="position:relative;z-index:1">
 			<img style="width:80%;" usemap="#details-map-1" src="<?php echo base_url()?>assets/img/puzzle.png" />
 			<map name="details-map-1">
-				<area shape="rect" group="EO" coords="106,249,304,446" href="EO.html" target="_blank" />
+				<area shape="rect" group="EO" coords="106,249,304,446" href="<?php echo base_url()?>index.php/Eo" target="_blank" />
 				<area shape="rect" group="EF" coords="313,250,513,450" href="EF.html" target="_blank" />
 				<area shape="rect" group="PAM" coords="520,249,721,449" href="PAM.html" target="_blank" />
 				<area shape="rect" group="DEM" coords="730,249,928,450" href="DEM.html" target="_blank" />
