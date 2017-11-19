@@ -7,19 +7,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Accueil</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-	<link href="../assets/css/style.css" rel="stylesheet">
-	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet">
+	<link href="<?php echo base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">
 
-	<script type="text/javascript" src="../assets/js/jquery.js"></script>
-	<script type="text/javascript" src="../assets/js/redist/when.js"></script>
-	<script type="text/javascript" src="../assets/js/core.js"></script>
-	<script type="text/javascript" src="../assets/js/graphics.js"></script>
-	<script type="text/javascript" src="../assets/js/mapimage.js"></script>
-	<script type="text/javascript" src="../assets/js/mapdata.js"></script>
-	<script type="text/javascript" src="../assets/js/areadata.js"></script>
-	<script type="text/javascript" src="../assets/js/areacorners.js"></script>
-	<script type="text/javascript" src="../assets/js/scale.js"></script>
-	<script type="text/javascript" src="../assets/js/tooltip.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/redist/when.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/core.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/graphics.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/mapimage.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/mapdata.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/areadata.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/areacorners.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/scale.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/tooltip.js"></script>
 
 	<script type="text/javascript">
 
@@ -43,31 +43,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				{
 					key: 'kitacc',
 					stroke: false,
-					altImage: '../assets/img/bas_hover.png',
+					altImage: '<?php echo base_url()?>assets/img/bas_hover.png',
 					fillOpacity: 3
 				},
 				{
 					key: 'overview',
 					stroke: false,
-					altImage: '../assets/img/bas_hover.png',
+					altImage: '<?php echo base_url()?>assets/img/bas_hover.png',
 					fillOpacity: 3
 				},
 				{
 					key: 'tools',
-					altImage: '../assets/img/bas_hover.png',
+					altImage: '<?php echo base_url()?>assets/img/bas_hover.png',
 					stroke: false,
 					fillOpacity: 3
 				},
 				{
 					key: 'comm',
 					stroke: false,
-					altImage: '../assets/img/bas_hover.png',
+					altImage: '<?php echo base_url()?>assets/img/bas_hover.png',
 					fillOpacity: 3
 				},
 				{
 					key: 'deli',
 					stroke: false,
-					altImage: '../assets/img/bas_hover.png',
+					altImage: '<?php echo base_url()?>assets/img/bas_hover.png',
 					fillOpacity: 3
 				},
 			]
@@ -78,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 <div class="img_header">
    <div style="position:absolute;z-index:1">
-      <img src="../assets/img/haut2.png">
+      <img src="<?php echo base_url()?>assets/img/haut2.png">
    </div>
    <div class="ban_texte_header">
 		<center>
@@ -92,7 +92,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <div class="accueil_content">
 	<div style="position:absolute;z-index:1">
-		<img src="../assets/img/bas.png"  border="0" alt="" usemap="#shapes_Map">
+		<img src="<?php echo base_url()?>assets/img/bas.png"  border="0" alt="" usemap="#shapes_Map">
 		<map name="shapes_Map">
 		    <area target="_self" alt="" title="Livrables" href="http://vps313166.ovh.net/FWBA_CI/index.php/Deliverables" group="deli" coords="567,381,102" shape="circle">
 			<area target="_self" alt="" title="Kit d'accueil" href="http://vps313166.ovh.net/FWBA_CI/index.php/Kitacc" group="kitacc" coords="204,255,108" shape="circle">

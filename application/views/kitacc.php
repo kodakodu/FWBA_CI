@@ -5,15 +5,15 @@
     <title>Kit d'accueil</title>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
-	<script type="text/javascript" src="../assets/js/redist/when.js"></script>
-	<script type="text/javascript" src="../assets/js/core.js"></script>
-	<script type="text/javascript" src="../assets/js/graphics.js"></script>
-	<script type="text/javascript" src="../assets/js/mapimage.js"></script>
-	<script type="text/javascript" src="../assets/js/mapdata.js"></script>
-	<script type="text/javascript" src="../assets/js/areadata.js"></script>
-	<script type="text/javascript" src="../assets/js/areacorners.js"></script>
-	<script type="text/javascript" src="../assets/js/scale.js"></script>
-	<script type="text/javascript" src="../assets/js/tooltip.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/redist/when.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/core.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/graphics.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/mapimage.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/mapdata.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/areadata.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/areacorners.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/scale.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>assets/js/tooltip.js"></script>
 
 	<script type="text/javascript">
 
@@ -44,14 +44,14 @@
 		});
 	});
 	</script>
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet">
   </head>
 <body>
 <div class="img_header">
    <div style="position:absolute;z-index:1">
       <img src="../assets/img/haut2.png" usemap="#image-map">
 		<map name="image-map" >
-			<area target="" alt="" title="" href="../index.html" group="acc" coords="60,35,60,153,124,204,195,148,199,35" shape="poly">
+			<area target="" alt="" title="" href="<?php echo base_url()?>index.html" group="acc" coords="60,35,60,153,124,204,195,148,199,35" shape="poly">
 		</map>
    </div>
    <div class="ban_texte_header">
@@ -66,7 +66,7 @@
 </div>
 <div class="pages_content"style="width:80%">
 	<div style="position:absolute;z-index:1;top:280px;">
-		<img src="../assets/img/bas_page_vide.png"  border="0" alt="" u>
+		<img src="<?php echo base_url()?>assets/img/bas_page_vide.png"  border="0" alt="" u>
    </div>
 </div>
 </body>
