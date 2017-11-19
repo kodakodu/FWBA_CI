@@ -94,11 +94,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div style="position:absolute;z-index:1">
 		<img src="<?php echo base_url()?>assets/img/bas.png"  border="0" alt="" usemap="#shapes_Map">
 		<map name="shapes_Map">
-		    <area target="_self" alt="" title="Livrables" href="http://vps313166.ovh.net/FWBA_CI/index.php/Deliverables" group="deli" coords="567,381,102" shape="circle">
-			<area target="_self" alt="" title="Kit d'accueil" href="http://vps313166.ovh.net/FWBA_CI/index.php/Kitacc" group="kitacc" coords="204,255,108" shape="circle">
-			<area target="_self" alt="" title="Processus projet" href="http://vps313166.ovh.net/FWBA_CI/index.php/Overview" group="overview"  coords="506,111,116" shape="circle">
-			<area target="_self" alt="" title="Outils" href="http://vps313166.ovh.net/FWBA_CI/index.php/Tools" group="tools"  coords="1512,154,94" shape="circle">
-			<area target="_self" alt="" title="Communauté" href="http://vps313166.ovh.net/FWBA_CI/index.php/Community" group="comm" coords="1357,372,114" shape="circle">
+		    <area target="_self" alt="" title="Livrables" href="<?php echo base_url()?>index.php/Deliverables" group="deli" coords="567,381,102" shape="circle">
+			<area target="_self" alt="" title="Kit d'accueil" href="<?php echo base_url()?>index.php/Kitacc" group="kitacc" coords="204,255,108" shape="circle">
+			<area target="_self" alt="" title="Processus projet" href="<?php echo base_url()?>index.php/Overview" group="overview"  coords="506,111,116" shape="circle">
+			<area target="_self" alt="" title="Outils" href="<?php echo base_url()?>index.php/Tools" group="tools"  coords="1512,154,94" shape="circle">
+			<area target="_self" alt="" title="Communauté" href="<?php echo base_url()?>index.php/Community" group="comm" coords="1357,372,114" shape="circle">
 		</map>
    </div>
 </div>
