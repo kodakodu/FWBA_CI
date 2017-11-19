@@ -1,7 +1,13 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet">
+    
     <title>Processus Projet</title>
     <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.js"></script>
   	<script type="text/javascript" src="<?php echo base_url()?>assets/js/redist/when.js"></script>
@@ -71,13 +77,12 @@
 			});
 		});
 		</script>
-		<link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet">
 	  </head>
 <body>
 <div class="img_header">
    <div style="position:absolute;z-index:1">
       <img src="<?php echo base_url()?>assets/img/haut2.png" usemap="#image-map">
-		<map name="image-map" >
+		<map name="image-map">
 			<area target="" alt="" title="" href="<?php echo base_url()?>index.php" group="acc" coords="60,35,60,153,124,204,195,148,199,35" shape="poly">
 		</map>
    </div>
@@ -87,11 +92,10 @@
 			<h1 class = "title"> BA & Chef de projet</h1>
 			<span class="trait_vert"></span>
 		</center>
-		<p class = "subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl lorem. Fusce quis dolor mauris. Suspendisse tortor ipsum, lacinia sollicitudin orci consectetur, auctor porttitor turpis.</p>
+		<!-- <p class = "subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl lorem. Fusce quis dolor mauris. Suspendisse tortor ipsum, lacinia sollicitudin orci consectetur, auctor porttitor turpis.</p> -->
 		</div>
 	</div>
 </div>
-
 <div class="content_global">
 	<div style="position:absolute;z-index:1">
 		<h1 class="title_phase"style="position:absolute;">Processus projet</h1>

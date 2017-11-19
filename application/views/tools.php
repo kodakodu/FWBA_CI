@@ -1,16 +1,10 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Livrables</title>
 
-<head>
-	<title>Accueil</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-	<link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet">
-	<link href="<?php echo base_url()?>assets/css/bootstrap.min.css.css" rel="stylesheet">
-
-	<script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo base_url()?>assets/js/redist/when.js"></script>
 	<script type="text/javascript" src="<?php echo base_url()?>assets/js/core.js"></script>
 	<script type="text/javascript" src="<?php echo base_url()?>assets/js/graphics.js"></script>
@@ -39,46 +33,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			},
 			areas: [
-
 				{
-					key: 'kitacc',
-					stroke: false,
-					altImage: '<?php echo base_url()?>assets/img/bas_hover.png',
-					fillOpacity: 3
-				},
-				{
-					key: 'overview',
-					stroke: false,
-					altImage: '<?php echo base_url()?>assets/img/bas_hover.png',
-					fillOpacity: 3
-				},
-				{
-					key: 'tools',
-					altImage: '<?php echo base_url()?>assets/img/bas_hover.png',
-					stroke: false,
-					fillOpacity: 3
-				},
-				{
-					key: 'comm',
-					stroke: false,
-					altImage: '<?php echo base_url()?>img/assets/bas_hover.png',
-					fillOpacity: 3
-				},
-				{
-					key: 'deli',
-					stroke: false,
-					altImage: '<?php echo base_url()?>img/assets/bas_hover.png',
-					fillOpacity: 3
+					key: 'acc',
+					stroke:true,
+					fill:false,
+					strokeColor:'005b82',
+					fillOpacity: 5
 				},
 			]
 		});
 	});
 	</script>
-</head>
+	<link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet">
+  </head>
 <body>
 <div class="img_header">
    <div style="position:absolute;z-index:1">
-      <img src="<?php echo base_url()?>assets/img/haut2.png">
+      <img src="<?php echo base_url()?>assets/img/haut2.png" usemap="#image-map">
+		<map name="image-map" >
+			<area target="" alt="" title="" href="<?php echo base_url()?>index.php" group="acc" coords="60,35,60,153,124,204,195,148,199,35" shape="poly">
+		</map>
    </div>
    <div class="ban_texte_header">
 		<center>

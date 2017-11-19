@@ -51,7 +51,7 @@
    <div style="position:absolute;z-index:1">
       <img src="../assets/img/haut2.png" usemap="#image-map">
 		<map name="image-map" >
-			<area target="" alt="" title="" href="<?php echo base_url()?>index.html" group="acc" coords="60,35,60,153,124,204,195,148,199,35" shape="poly">
+			<area target="" alt="" title="" href="<?php echo base_url()?>index.php" group="acc" coords="60,35,60,153,124,204,195,148,199,35" shape="poly">
 		</map>
    </div>
    <div class="ban_texte_header">
