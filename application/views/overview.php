@@ -101,7 +101,7 @@
 			<map name="details-map-1">
 				<area shape="rect" group="EO" coords="106,249,304,446" href="<?php echo base_url()?>index.php/Eo" target="_blank" />
 				<area shape="rect" group="EF" coords="313,250,513,450" href="<?php echo base_url()?>index.php/Ef" target="_blank" />
-				<area shape="rect" group="PAM" coords="520,249,721,449" href="PAM.html" target="_blank" />
+				<area shape="rect" group="PAM" coords="520,249,721,449" href="<?php echo base_url()?>index.php/Pam" target="_blank" />
 				<area shape="rect" group="DEM" coords="730,249,928,450" href="DEM.html" target="_blank" />
 			</map>
 		</div>
