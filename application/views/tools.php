@@ -74,9 +74,9 @@
 				<span><span class="traits_section"></span></span>
 				<ul>
 					<li><a href=""target="_blank">Lexique<a/></li>
-					<li><a href=""target="_blank"><a/></li>
-					<li><a href=""target="_blank"><a/></li>
-					<li><a href=""target="_blank"><a/></li>
+					<li><a href="https://editor.signavio.com/p/login"target="_blank">Modelisation BPMN (Signavio)<a/></li>
+					<!-- <li><a href=""target="_blank"><a/></li>
+					<li><a href=""target="_blank"><a/></li> -->
 				</ul>
 			</div>
 		</div>
