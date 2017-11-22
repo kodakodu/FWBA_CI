@@ -74,9 +74,9 @@
 				<span><span class="traits_section"></span></span>
 				<ul>
 					<li><a href=""target="_blank">Lexique<a/></li>
-          <li><a href="https://editor.signavio.com/intralink/portal#/glossarycategory/ce3c47bbb50c480aae2d198463d5fcc4?offset=0" target="_blank">Glossaire<a/></li>
-  				<li><a href="https://editor.signavio.com/p/login" target="_blank">Outil de modélisation BPMN 2.0<a/></li>
-					<li><a href=""target="_blank"><a/></li>
+					<li><a href="https://editor.signavio.com/p/login"target="_blank">Modelisation BPMN (Signavio)<a/></li>
+					<li><a href="https://mntprod-my.sharepoint.com/personal/yannunderw_mnt_fr/_layouts/15/guestaccess.aspx?docid=1bcd15b9d3c01405db6bfb409ef7944f2&authkey=Aa-x469gpoShH6JDVv1QUBc&e=599e61ffbb8c46cbab9e71b2e1949d9f"target="_blank">Test OneDrive<a/></li>
+					<li><a href="https://mntprod.sharepoint.com/sites/Intranet/consultation/HTML/accueil.aspx#/HOME" target="_blank">Intranet MNT<a/></li>
 				</ul>
 			</div>
 		</div>

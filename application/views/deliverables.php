@@ -73,10 +73,10 @@
 				<span><span class="traits_section"></span></span>
 				<span><span class="traits_section"></span></span>
 				<ul>
-					<li><a href=""target="_blank">Etude d'opportunités<a/></li>
-					<li><a href=""target="_blank">Etude de faisabilité<a/></li>
-					<li><a href=""target="_blank">Plan d'analyse métier<a/></li>
-					<li><a href=""target="_blank">Dossier d'exigences fonctionnelles<a/></li>
+					<li><a href="<?php echo base_url()?>index.php/Eo"target="_blank">Etude d'opportunités<a/></li>
+					<li><a href="<?php echo base_url()?>index.php/Ef"target="_blank">Etude de faisabilité<a/></li>
+					<li><a href="<?php echo base_url()?>index.php/Pam"target="_blank">Plan d'analyse métier<a/></li>
+					<li><a href="<?php echo base_url()?>index.php/Dem"target="_blank">Dossier d'exigences fonctionnelles<a/></li>
 				</ul>
 			</div>
 		</div>

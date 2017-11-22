@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet">
-    
+
     <title>Processus Projet</title>
     <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.js"></script>
   	<script type="text/javascript" src="<?php echo base_url()?>assets/js/redist/when.js"></script>
@@ -98,6 +98,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <div class="content_global">
 	<div style="position:absolute;z-index:1">
+    <a href="<?php echo base_url()?>assets/docs/25092017 RACI Processus Projet v1.0.xlsx"target="_blank">>>Lien vers le RACI<<<a/>
+
 		<h1 class="title_phase"style="position:absolute;">Processus projet</h1>
 		<p style="padding:30px;"></p>
 		<div class="content_phases"style="position:relative;z-index:1">
