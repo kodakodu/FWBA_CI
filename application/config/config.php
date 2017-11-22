@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://vps313166.ovh.net/FWBA_CI/';
-$config['base_url'] = 'http://localhost/FWBA_CI/';
+$config['base_url'] = 'http://localhost/tmp/FWBA_CI/';
 
 /*
 |--------------------------------------------------------------------------
